@@ -67,6 +67,8 @@ const page = () => {
         toast.error("Error in submitting blog.");
       }
     } catch (error) {
+      console.log(error);
+
       toast.error("Submission failed. Please try again.");
     }
   };
