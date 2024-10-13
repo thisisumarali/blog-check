@@ -40,7 +40,7 @@ const Header = () => {
                 {navItems.map((item, index) => (
                   <div key={index}>
                     <Link
-                      className="border-2 border-black py-2 px-6 sm:px-8 hover:bg-black hover:text-white transition-all duration-200 ease-in-out"
+                      className="border-2 border-black text-black py-2 px-6 sm:px-8 hover:bg-black hover:text-white transition-all duration-200 ease-in-out"
                       href={item.href}
                       target="_blanck"
                     >
