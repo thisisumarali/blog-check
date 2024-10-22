@@ -5,7 +5,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-black py-6">
+    <footer className="bg-[#08a88a] py-6">
       <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0 px-6">
         {/* Footer Logo */}
         <Link href="/">

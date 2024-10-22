@@ -21,7 +21,7 @@ const Bloglist = () => {
           const isActive = menu === category;
           const buttonClasses = `py-2 px-6 rounded-md font-semibold transition-all ${
             isActive
-              ? "bg-black text-white"
+              ? "bg-[#08a88a] text-white"
               : "bg-gray-200 text-gray-700 hover:bg-gray-300"
           }`;
 

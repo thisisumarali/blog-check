@@ -125,7 +125,7 @@ const page = () => {
           <option value="Lifestyle">Lifestyle</option>
         </select>
         <br />
-        <button type="submit" className="mt-8 w-40 h-12 bg-black text-white">
+        <button type="submit" className="mt-8 w-40 h-12 bg-[#08a88a] text-white">
           Add Blog
         </button>
       </form>

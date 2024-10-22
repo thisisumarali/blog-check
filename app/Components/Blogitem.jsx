@@ -17,7 +17,7 @@ const Blogitem = ({ title, description, category, image, id }) => {
         />
       </Link>
       <div className="p-4">
-        <p className="inline-block bg-indigo-600 text-white text-xs font-semibold px-2 py-1 rounded-full">
+        <p className="inline-block bg-[#08a88a] text-white text-xs font-semibold px-2 py-1 rounded-full">
           {category}
         </p>
         <h5 className="mt-3 text-xl font-bold text-gray-800">{title}</h5>
@@ -27,7 +27,7 @@ const Blogitem = ({ title, description, category, image, id }) => {
         ></p>
         <Link
           href={`/blogs/${id}`}
-          className="mt-4 inline-flex items-center text-blue-600 font-medium hover:underline"
+          className="mt-4 inline-flex items-center text-[#08a88a]-600 font-medium hover:underline"
         >
           Read More
           <Image src={assets.arrow} alt="arrow" className="ml-2" width={12} />
