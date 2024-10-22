@@ -35,17 +35,17 @@ const Header = () => {
 
           {/* Navigation Section */}
           <div className="md:flex md:items-center md:gap-12">
-            <nav aria-label="Global" className="hidden md:block">
+            <nav aria-label="Global" className="">
               <div className="flex items-center gap-6 text-sm">
                 <Link
-                  className="text-[#08a88a] hover:text-black text-4xl transition-all duration-200 ease-in-out"
+                  className="text-[#08a88a]  hover:text-black text-4xl transition-all duration-200 ease-in-out"
                   href="https://github.com/thisisumarali"
                   target="_blanck"
                 >
                   <FaGithub />
                 </Link>
                 <Link
-                  className="border-2 border-black text-black py-2 px-6 sm:px-8 hover:bg-[#08a88a] hover:text-white transition-all duration-200 ease-in-out"
+                  className="border-2 border-black hidden md:block text-black py-2 px-6 sm:px-8 hover:bg-[#08a88a] hover:text-white transition-all duration-200 ease-in-out"
                   href="https://www.umarkhan.tech/"
                   target="_blanck"
                 >
