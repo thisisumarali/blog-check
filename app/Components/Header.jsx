@@ -58,8 +58,8 @@ const Header = () => {
       </div>
 
       {/* Header Banner and Email Subscription */}
-      <div className="bg-gray-100 py-6">
-        <h1 className="text-3xl text-center font-bold text-gray-800 py-2">
+      <div className="bg-gray-100 py-4 sm:py-6 px-4 sm:px-0">
+        <h1 className="text-2xl sm:text-3xl text-center font-bold text-gray-800 py-2">
           LATEST BLOG
         </h1>
         <form
