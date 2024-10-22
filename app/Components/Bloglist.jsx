@@ -16,7 +16,7 @@ const Bloglist = () => {
   }, []);
   return (
     <div>
-      <div className="flex justify-center gap-1 sm:gap-6 my-10">
+      <div className="grid grid-cols-2 md:grid-cols-4 justify-center px-8 sm:px-0 gap-2 sm:gap-6 my-10 mx-auto max-w-[350px] md:max-w-[600px]">
         {["All", "Technology", "Startup", "Lifestyle"].map((category) => {
           const isActive = menu === category;
           const buttonClasses = `py-2 px-6 rounded-md font-semibold transition-all ${
